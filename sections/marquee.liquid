@@ -1,0 +1,56 @@
+{{- 'section-marquee.css' | asset_url | stylesheet_tag -}}
+
+{%- if section.blocks.size > 0 -%}
+  <div class="marquee__container color-{{ section.settings.color_scheme }} gradient">
+    <div class="marquee__wrap scroll-trigger animate--slide-in">
+      {%- for index in (1..2) -%}
+        <div class="marquee__content scroll">
+          {%- for block in section.blocks -%}
+            {%- if block.settings.marquee_text != blank -%}
+              <div class="marquee__blocks_slide">
+                <p class="marquee__blocks_text">
+                  {{- block.settings.marquee_text -}}
+                </p>
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.marquee.name",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "t:sections.marquee.blocks.name",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Text",
+          "id": "marquee_text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.marquee.presets.name"
+    }
+  ]
+}
+{% endschema %}
