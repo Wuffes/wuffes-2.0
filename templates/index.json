@@ -1,5 +1,89 @@
 {
   "sections": {
+    "testimonials_66k9wN": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials_video_FaGzqV": {
+          "type": "testimonials_video",
+          "settings": {
+            "item_title": "Collections",
+            "enable_video_looping": false,
+            "video_autoplay": false,
+            "video": "shopify:\/\/files\/videos\/DrTiffany.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "slide_product_img": "shopify:\/\/shop_images\/hp_testimonials_cb0_500.png",
+            "slide_product_title": "1000mg CBD Isolate Oil"
+          }
+        },
+        "text_zzqMVe": {
+          "type": "text",
+          "settings": {
+            "item_title": "Collections",
+            "enable_video_looping": false,
+            "video_autoplay": false,
+            "show_review_icons": false,
+            "slide_title": "Testimonials slide title",
+            "slide_text": "Testimonials slide text",
+            "slide_text_author": "Testimonials slide text author",
+            "slide_product_title": "Testimonials slide product title",
+            "video": "shopify:\/\/files\/videos\/DrAndrew.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "testimonials_video_hdFtpQ": {
+          "type": "testimonials_video",
+          "settings": {
+            "item_title": "Collections",
+            "enable_video_looping": false,
+            "video_autoplay": false,
+            "video": "shopify:\/\/files\/videos\/DrCarin.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "slide_product_title": "Testimonials slide product title"
+          }
+        },
+        "testimonials_video_jRgDpW": {
+          "type": "testimonials_video",
+          "settings": {
+            "item_title": "Collections",
+            "enable_video_looping": false,
+            "video_autoplay": false,
+            "video": "shopify:\/\/files\/videos\/DrTiffany.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "slide_product_title": "Testimonials slide product title"
+          }
+        },
+        "testimonials_video_amHNkb": {
+          "type": "testimonials_video",
+          "settings": {
+            "item_title": "Collections",
+            "enable_video_looping": false,
+            "video_autoplay": false,
+            "video": "shopify:\/\/files\/videos\/DrAndrew.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "slide_product_title": "Testimonials slide product title"
+          }
+        }
+      },
+      "block_order": [
+        "testimonials_video_FaGzqV",
+        "text_zzqMVe",
+        "testimonials_video_hdFtpQ",
+        "testimonials_video_jRgDpW",
+        "testimonials_video_amHNkb"
+      ],
+      "settings": {
+        "title": "Collections",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {

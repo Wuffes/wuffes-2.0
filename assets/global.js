@@ -384,7 +384,6 @@ class MenuDrawer extends HTMLElement {
     });
   }
 
-
   onKeyUp(event) {
     if (event.code.toUpperCase() !== 'ESCAPE') return;
 
@@ -437,7 +436,6 @@ class MenuDrawer extends HTMLElement {
   }
 
   closeMenuDrawer(event, elementToFocus = false) {
-
     if (event === undefined) return;
 
     this.mainDetailsToggle.classList.remove('menu-opening');
@@ -615,7 +613,6 @@ class DeferredMedia extends HTMLElement {
   }
 
   loadContent(focus = true) {
-    window.pauseAllMedia();
     if (!this.getAttribute('loaded')) {
       const content = document.createElement('div');
       content.appendChild(this.querySelector('template').content.firstElementChild.cloneNode(true));
